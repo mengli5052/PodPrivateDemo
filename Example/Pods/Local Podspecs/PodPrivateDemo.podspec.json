@@ -1,0 +1,22 @@
+{
+  "name": "PodPrivateDemo",
+  "version": "0.1.0",
+  "summary": "A common tool of PodPrivateDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mengli5052/PodPrivateDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mengli5052": "1451051606@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/mengli5052/PodPrivateDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodPrivateDemo/Classes/**/*"
+}
