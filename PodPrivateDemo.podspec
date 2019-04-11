@@ -29,8 +29,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PodPrivateDemo/Classes/**/*'
-  
+  s.source_files = 'PodPrivateDemo/Classes/*'
+  # source_files里面的的“*” 表示匹配所有文件
+  #  source_files里面的的“**” 表示匹配所有子目录
+  #  source_files里面的的“*.{h,m}” 表示匹配.h,.m文件
   # s.resource_bundles = {
   #   'PodPrivateDemo' => ['PodPrivateDemo/Assets/*.png']
   # }
