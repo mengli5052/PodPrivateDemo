@@ -22,7 +22,7 @@ pod 'PodPrivateDemo'
 
 ## Author
 
-flwhrt, 13848183219@163.com
+mengli5052, 1451051606@qq.com
 
 ## License
 
