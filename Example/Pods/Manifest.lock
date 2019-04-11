@@ -8,7 +8,7 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - PodPrivateDemo (from `../`)
+  - PodPrivateDemo (from `../PodPrivateDemo.podspec`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -16,12 +16,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   PodPrivateDemo:
-    :path: "../"
+    :podspec: "../PodPrivateDemo.podspec"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  PodPrivateDemo: 30c9cde1191a9e9f1db3f2e6d598f0b32f6b8b39
+  PodPrivateDemo: a39e97fa5de6fc9176debe1269d83acfd7dfaae0
 
-PODFILE CHECKSUM: 0f6473ee80af657f4b9cd909d2b7a3cc951ed814
+PODFILE CHECKSUM: 967368543d11a0f672a0f3a197522492f47ec682
 
 COCOAPODS: 1.5.3

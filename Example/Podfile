@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'PodPrivateDemo_Example' do
-  pod 'PodPrivateDemo', :path => '../'
+  pod 'PodPrivateDemo', :podspec => '../PodPrivateDemo.podspec'
 
   target 'PodPrivateDemo_Tests' do
     inherit! :search_paths
